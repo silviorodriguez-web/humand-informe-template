@@ -35,3 +35,7 @@ Dashboard de control horario y fichas de tiempo que consume la API de **Humand**
 - Tailwind CSS 4
 - `xlsx` para exportar Excel/CSV, `jspdf` + `jspdf-autotable` para PDF
 - Desplegado en Vercel
+
+## Desarrollando con Claude Code
+
+Este repo incluye un `AGENTS.md` con arquitectura, comportamientos deliberados del código (paginación, chunking de fechas, manejo de errores) y los comandos exactos de deploy a Vercel. Claude Code lo carga automáticamente al abrir el proyecto — no hace falta pegarlo en el prompt.
